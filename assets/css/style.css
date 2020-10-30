@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
   }
   
@@ -13,20 +13,21 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
-    color: black;
+    color: white;
   }
   
   a {
     text-decoration: none;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   /* END: base styles */
   
   /* common styles for watercolor in header and footer */
   header, footer {
-    background-image: url("../images/raining-jpn.jpg");
+    background-image: url(../css/images/rain-leaf.jpg);
     background-size: cover;
     background-position: center;
     height: 299px;
@@ -39,7 +40,7 @@
   header h1 {
     font-size: 4em;
     margin-top: auto;
-    bottom: -30px;
+    bottom: -10px;
     position: relative;
   }
   
@@ -121,7 +122,7 @@
     box-sizing: border-box;
     position: relative;
     opacity: 0.5;
-    background-image: url(../images/raining-jpn.jpg);
+    background-image: url(../css/images/rain-rose.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 250ms opacity;
@@ -153,12 +154,12 @@
   }
   
   .projects .run-buddy {
-    background-image: url(../images/projects/run-buddy.png);
+    background-image: url(../css/images/run-buddy.png);
     background-size: cover;
   }
   
-  .projects .stargazr {
-    background-image: url(../images/projects/stargazr.jpg);
+  .projects .TBA1 {
+    background-image: url(../css/images/rain-rose.jpg);
     background-size: cover;
   }
   
